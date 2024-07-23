@@ -21,7 +21,10 @@ const ConditionalForm = ({ type }) => {
     return (
       <p className="text-sm text-center my-5">
         Dont have an account?{" "}
-        <Link to="/register" className="font-bold text-blue-600">
+        <Link
+          to="/register"
+          className="font-bold text-blue-600 hover:text-slate-700"
+        >
           Sign Up
         </Link>
       </p>
@@ -30,7 +33,10 @@ const ConditionalForm = ({ type }) => {
     return (
       <p className="text-sm text-center my-5">
         Already have an account?{" "}
-        <Link to="/login" className="font-bold text-blue-600">
+        <Link
+          to="/login"
+          className="font-bold text-blue-600 hover:text-slate-700"
+        >
           Login
         </Link>
       </p>

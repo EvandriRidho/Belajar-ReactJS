@@ -2,6 +2,9 @@ import Button from "../Elements/Button";
 import InputFrom from "../Elements/Input";
 
 const FormLogin = () => {
+  const handleLogin = () => {
+    console.log("login");
+  };
   return (
     <form action="">
       <InputFrom
@@ -16,7 +19,12 @@ const FormLogin = () => {
         placeholder="********"
         name="password"
       />
-      <Button classname="bg-blue-600 w-full">Login</Button>
+      <Button
+        classname="bg-blue-600 w-full hover:bg-slate-700"
+        onClick={handleLogin}
+      >
+        Login
+      </Button>
     </form>
   );
 };
