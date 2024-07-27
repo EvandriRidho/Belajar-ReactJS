@@ -2,13 +2,13 @@ const Button = (props) => {
   const {
     classname = "bg-black",
     children = "...",
-    onClick,
+    onClick = () => {},
     type = "button",
   } = props;
   return (
     <button
       className={`h-10 px-6 rounded-md text-white font-semibold ${classname}`}
-      type="button"
+      type={type}
       onClick={() => onClick()}
     >
       {children}
