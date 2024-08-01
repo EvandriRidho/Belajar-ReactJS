@@ -5,15 +5,22 @@ const products = [
   {
     id: 1,
     images: "/images/shoes-1.jpg",
-    title: "New Shoes",
+    title: "Nike Shoes",
     price: "$ 120",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi distinctio incidunt facilis sunt a aliquam? Qui accusantium officiis`,
   },
   {
-    id: 1,
+    id: 2,
     images: "/images/shoes-1.jpg",
-    title: "Old Shoes",
-    price: "$ 80",
+    title: "Adidas Shoes",
+    price: "$ 90",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
+  },
+  {
+    id: 3,
+    images: "/images/shoes-1.jpg",
+    title: "Puma Shoes",
+    price: "$ 50",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
   },
 ];
