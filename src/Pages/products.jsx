@@ -46,7 +46,6 @@ const ProductsPage = () => {
       setCart([...cart, { id, qty: 1 }]);
     }
   };
-
   return (
     <>
       <div className="flex justify-end h-20 bg-blue-600 text-white items-center px-10">
@@ -92,9 +91,9 @@ const ProductsPage = () => {
                 return (
                   <tr key={item.id}>
                     <td>{product.title}</td>
-                    <td>${product.price}</td>
+                    <td>$ {product.price}</td>
                     <td>{item.qty}</td>
-                    <td>${product.price * item.qty}</td>
+                    <td>{product.price * item.qty}</td>
                   </tr>
                 );
               })}
