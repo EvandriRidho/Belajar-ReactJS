@@ -10,7 +10,11 @@ import RegisterPage from "./Pages/register";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello World</div>,
+    element: (
+      <div className="flex justify-center items-center min-h-screen">
+        <h1 className="text-3xl font-bold text-blue-600">Hello World</h1>
+      </div>
+    ),
     errorElement: <ErrorPage />,
   },
   {
